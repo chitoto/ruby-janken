@@ -12,7 +12,7 @@ class Player
       # 以降の型の例に沿って実装しましょう ※実装する時場合はコメントアウトに注意しましょう
       while true
         # if 条件を書く (「input_hand」(取得した値)が「0, 1, 2」のいずれかの場合だった場合)
-        if input_hand = 0 || 1 || 2
+        if input_hand == 0 || input_hand == 1 || input_hand == 2
           return input_hand
           # 「input_hand」(取得した値)をそのまま返します。
             # ヒント！ 「return」を使用します。
